@@ -55,6 +55,7 @@
             }
             else {
                 fancyLogMessage("ERROR", "Could not find element with class " + DISPLAY_LAYER_GROUP_CLASS);
+                successfulStartup = false;
             }
         }
         catch (err) {
